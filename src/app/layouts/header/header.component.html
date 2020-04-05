@@ -1,0 +1,14 @@
+<mat-toolbar>
+  <div class="header-content">
+    <ul>
+      <li *ngFor="let item of demoList"><a [routerLink]="item.link"
+          routerLinkActive="router-link-active">{{item.label}}</a></li>
+    </ul>
+  </div>
+  <i class="spacer"></i>
+  <div class="header-content">
+    <mat-icon>inbox</mat-icon>
+    <mat-icon>inbox</mat-icon>
+    <mat-icon>inbox</mat-icon>
+  </div>
+</mat-toolbar>

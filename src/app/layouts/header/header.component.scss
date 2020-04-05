@@ -1,0 +1,21 @@
+:host {
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  padding: 0 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.router-link-active {
+  transition: 0.5s;
+  font-weight: bold;
+}
