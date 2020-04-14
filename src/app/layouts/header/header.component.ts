@@ -9,7 +9,7 @@ export class HeaderComponent implements OnInit {
   demoList = [
     { label: 'RxJS', link: 'demos/rxjs' },
     { label: 'WebAPI', link: 'demos/web-api' },
-    { label: 'placeholder', link: '/' }
+    { label: 'forms', link: 'demos/forms' }
   ]
   constructor() { }
 
